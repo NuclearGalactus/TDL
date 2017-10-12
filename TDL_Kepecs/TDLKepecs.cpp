@@ -16,7 +16,7 @@ int main()
 }
 
 void TDLKepecs::run() {
-	int stage;
+	int stage = 0;
 	getInput();
 	while (TDLKepecs::input != "done") {
 		
